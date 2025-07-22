@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="close.svg" alt="close">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo"> <img width="65" src="logo.svg" alt="LOGO"></div>
+                <ul>
+                    <li><img src="home.svg" alt="home">Home</li>
+                    <li><img src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img src="playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="song-list">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <img class="hamburger" src="hamburger.svg" alt="hamburger">                    
+                    <img src="backward.svg" alt="backward">
+                    <img src="forward.svg" alt="forward">
+                </div>
+                <div class="buttons">
+                    <button class="signUpBtn">Sign Up</button>
+                    <button class="loginBtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                                fill="black">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="Saiyaara">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with hapiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                                fill="black">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="Saiyaara">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with hapiness!</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"> </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="previous.svg" alt="previous">
+                            <img id="play" src="play.svg" alt="play">
+                            <img id="next" src="next.svg" alt="next-button">
+                        </div>
+                        <div class="songtime">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
